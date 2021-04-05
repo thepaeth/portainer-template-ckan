@@ -111,7 +111,7 @@
                     "name": "NODE_ROLE",
                     "label": "CKAN NODE ROLE",
                     "default": "worker"
-                },
+                }
             ]
         }
     ]
