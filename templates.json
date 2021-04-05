@@ -80,10 +80,6 @@
                     ]
                 },
                 {
-                    "name": "NGINX_PORT",
-                    "label": "NGINX PORT"
-                },
-                {
                     "name": "DEFAULT_URL",
                     "label": "DEFAULT URL"
                 },
