@@ -5,7 +5,7 @@
     "templates": [
         {
             "type": 2,
-            "title": "CKAN",
+            "title": "CKAN 2.9.2",
             "description": "CKAN setup And configuretion for thai GDC",
             "note": "Deploys a CKAN instance for thai GDC",
             "categories": [
@@ -106,7 +106,7 @@
                 {
                     "name": "NODE_ROLE",
                     "label": "CKAN NODE ROLE",
-                    "default": "worker"
+                    "default": "045073-U"
                 }
             ]
         }
