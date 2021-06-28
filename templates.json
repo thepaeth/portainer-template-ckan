@@ -12,7 +12,7 @@
                 "CMS"
             ],
             "platform": "linux",
-            "logo": "https://gitlab.nectec.or.th/uploads/-/system/project/avatar/634/5d9cd03d8696c29670d698a93f47e3.png?width=64",
+            "logo": "https://gitlab.nectec.or.th/uploads/-/system/project/avatar/639/logo_ckan_opend.jpg?width=64",
             "repository": {
                 "url": "https://gitlab.nectec.or.th/opend/portainer-templates",
                 "stackfile": "ckan/docker-stack.yml"
@@ -68,14 +68,6 @@
                             "text": "CKAN 2.9 with xloader",
                             "value": "2.9-xloader",
                             "default": true
-                        },
-                        {
-                            "text": "CKAN 2.9 with xloader dev",
-                            "value": "2.9-xloader-dev"
-                        },
-                        {
-                            "text": "CKAN 2.9 with xloader dga dev",
-                            "value": "2.9-xloader-dga-dev"
                         }
                     ]
                 },
