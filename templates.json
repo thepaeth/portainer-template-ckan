@@ -12,7 +12,7 @@
                 "CMS"
             ],
             "platform": "linux",
-            "logo": "https://gitlab.nectec.or.th/uploads/-/system/project/avatar/639/logo_ckan_opend.jpg?width=64",
+            "logo": "https://gitlab.nectec.or.th/uploads/-/system/project/avatar/639/logo_ckan_opend.jpg?width=54",
             "repository": {
                 "url": "https://gitlab.nectec.or.th/opend/portainer-templates",
                 "stackfile": "ckan/docker-stack.yml"
