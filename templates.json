@@ -192,7 +192,7 @@
         {
             "type": 2,
             "title": "CKAN 2.9.5 Thai GDC Data Center",
-            "description": "CKAN setup And configuretion for thai GDC site area base",
+            "description": "CKAN setup And configuretion for thai GDC site data center",
             "note": "Deploys a CKAN instance for thai GDC as a services",
             "categories": [
                 "CMS"
@@ -273,7 +273,7 @@
                 {
                     "name": "CKAN_PLUGINS",
                     "label": "CKAN PLUGS",
-                    "default": "envvars discovery search_suggestions thai_gdc stats image_view text_view recline_view resource_proxy geo_view geojson_view webpage_view shp_view wmts_view cesium_viewer datastore xloader dga_stats noregistration scheming_datasets scheming_groups pdf_view hierarchy_display hierarchy_form dcat dcat_json_interface structured_data"
+                    "default": "envvars discovery search_suggestions thai_gdc stats image_view text_view recline_view resource_proxy geo_view geojson_view webpage_view shp_view wmts_view cesium_viewer datastore xloader dga_stats noregistration scheming_datasets pdf_view hierarchy_display hierarchy_form dcat dcat_json_interface structured_data"
                 },
                 {
                     "name": "NODE_ROLE",
