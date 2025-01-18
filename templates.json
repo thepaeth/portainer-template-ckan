@@ -5,7 +5,7 @@
     "templates": [
         {
             "type": 2,
-            "title": "CKAN 2.9.5 Thai GDC",
+            "title": "CKAN 2.9.9 Thai GDC v2.2.4",
             "description": "CKAN setup And configuretion for thai GDC",
             "note": "Deploys a CKAN instance for thai GDC as a services",
             "categories": [
@@ -98,7 +98,7 @@
         },
         {
             "type": 2,
-            "title": "CKAN 2.9.5 Thai GDC area base",
+            "title": "CKAN 2.9.9 Thai GDC v2.2.4 area base",
             "description": "CKAN setup And configuretion for thai GDC site area base",
             "note": "Deploys a CKAN instance for thai GDC as a services",
             "categories": [
@@ -191,7 +191,100 @@
         },
         {
             "type": 2,
-            "title": "CKAN 2.9.5 Thai GDC Data Center",
+            "title": "CKAN 2.9.9 Thai GDC v2.2.4 local",
+            "description": "CKAN setup And configuretion for thai GDC site area base",
+            "note": "Deploys a CKAN instance for thai GDC as a services",
+            "categories": [
+                "CMS"
+            ],
+            "platform": "linux",
+            "logo": "https://gitlab.nectec.or.th/uploads/-/system/project/avatar/639/logo_ckan_opend.jpg?width=54",
+            "repository": {
+                "url": "https://gitlab.nectec.or.th/opend/portainer-templates",
+                "stackfile": "ckan/ckan-thai-gdc-local.yml"
+            },
+            "env": [
+                {
+                    "name": "AGENT",
+                    "label": "Agency name",
+                    "description": "ชื่อย่อหน่วยงาน ภาษาอังกฤษเท่านั้น"
+                },
+                {
+                    "name": "POSTGRES_USER",
+                    "label": "POSTGRES USER",
+                    "description": "ชื่อผู้ใช้ฐานข้อมูลสำหรับ CKAN Instance",
+                    "default": "ckan_${AGENT}"
+                },
+                {
+                    "name": "POSTGRES_PASSWORD",
+                    "label": "POSTGRES PASSWORD",
+                    "description": "รหัสผ่านสำหรับผู้ใช้ฐานข้อมูล",
+                    "default": "public"
+                },
+                {
+                    "name": "DATASTORE_READONLY_USER",
+                    "label": "DATASTORE READONLY USER",
+                    "default": "datastore_agency"
+                },
+                {
+                    "name": "DATASTORE_READONLY_PASSWORD",
+                    "label": "DATASTORE READONLY PASSWORD",
+                    "default": "public"
+                },
+                {
+                    "name": "POSTGRES_HOST",
+                    "default": "db",
+                    "preset": true
+                },
+                {
+                    "name": "POSTGRES_SERVER",
+                    "label": "POSTGRES SERVER",
+                    "default": "192.168.45.236"
+                },
+                {
+                    "name": "SOLR_SERVER",
+                    "label": "SOLR SERVER",
+                    "default": "192.168.45.236"
+                },
+                {
+                    "name": "CKAN_VERSION",
+                    "label": "CKAN VERSION",
+                    "default": "local-v1"
+                },
+                {
+                    "name": "DEFAULT_URL",
+                    "label": "DEFAULT URL"
+                },
+                {
+                    "name": "CKAN_SYSADMIN_NAME",
+                    "label": "CKAN SYSADMIN NAME",
+                    "default": "ckan_admin"
+                },
+                {
+                    "name": "CKAN_SYSADMIN_PASSWORD",
+                    "label": "CKAN SYSADMIN PASSWORD",
+                    "default": "ckan@min!1234"
+                },
+                {
+                    "name": "CKAN_SYSADMIN_EMAIL",
+                    "label": "CKAN SYSADMIN EMAIL",
+                    "default": "mail@a.b"
+                },
+                {
+                    "name": "CKAN_PLUGINS",
+                    "label": "CKAN PLUGS",
+                    "default": "envvars discovery search_suggestions thai_gdc stats opendstats image_view text_view recline_view resource_proxy geo_view geojson_view webpage_view shp_view wmts_view cesium_viewer datastore xloader scheming_datasets scheming_groups pdf_view hierarchy_display hierarchy_form dcat dcat_json_interface structured_data"
+                },
+                {
+                    "name": "NODE_ROLE",
+                    "label": "CKAN NODE ROLE",
+                    "default": "045073-U"
+                }
+            ]
+        },
+        {
+            "type": 2,
+            "title": "CKAN 2.9.9 Thai GDC v2.2.4 Data Center",
             "description": "CKAN setup And configuretion for thai GDC site data center",
             "note": "Deploys a CKAN instance for thai GDC as a services",
             "categories": [
