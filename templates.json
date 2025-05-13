@@ -1,9 +1,10 @@
 
 {
 
-    "version": "2",
+    "version": "3",
     "templates": [
         {
+            "id": 1,
             "type": 2,
             "title": "CKAN 2.9.9 Thai GDC v2.2.4",
             "description": "CKAN setup And configuretion for thai GDC",
@@ -97,6 +98,7 @@
             ]
         },
         {
+            "id": 2,
             "type": 2,
             "title": "CKAN 2.9.9 Thai GDC v2.2.4 area base",
             "description": "CKAN setup And configuretion for thai GDC site area base",
@@ -190,6 +192,7 @@
             ]
         },
         {
+            "id": 3,
             "type": 2,
             "title": "CKAN 2.9.9 Thai GDC v2.2.4 local",
             "description": "CKAN setup And configuretion for thai GDC site area base",
@@ -283,6 +286,7 @@
             ]
         },
         {
+            "id": 4,
             "type": 2,
             "title": "CKAN 2.9.9 Thai GDC v2.2.4 Data Center",
             "description": "CKAN setup And configuretion for thai GDC site data center",
